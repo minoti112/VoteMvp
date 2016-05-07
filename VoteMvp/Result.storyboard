@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Result View Controller-->
+        <scene sceneID="9UX-vE-eEv">
+            <objects>
+                <viewController storyboardIdentifier="ResultViewController" id="BOO-Q0-1r4" customClass="ResultViewController" customModule="VoteMvp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KT0-q4-vvM"/>
+                        <viewControllerLayoutGuide type="bottom" id="21X-R2-5xC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8gT-r9-Jfh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aan-sE-f9c">
+                                <rect key="frame" x="192" y="245" width="30" height="30"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <segue destination="KFf-wW-Q1R" kind="presentation" id="IPa-ZW-Pq5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0GI-sf-rAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="423"/>
+        </scene>
+        <!--ViewController-->
+        <scene sceneID="8Yf-Zt-qkr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="ViewController" id="KFf-wW-Q1R" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lmC-0F-AJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="738" y="423"/>
+        </scene>
+    </scenes>
+</document>

@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VoteMvp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="VoteMvp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -89,11 +89,20 @@
                         <outlet property="myNameUIPicker" destination="71f-X9-S00" id="F0e-d4-4RP"/>
                         <outlet property="pointUIPicker" destination="OUH-PS-NNJ" id="AXp-JU-0fg"/>
                         <outlet property="voteMonthUILabel" destination="Wfo-Jp-qpe" id="6AH-vs-uUl"/>
+                        <segue destination="U1B-XZ-zxF" kind="presentation" identifier="result" id="Zof-GT-6An"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="340" y="387"/>
+        </scene>
+        <!--ResultViewController-->
+        <scene sceneID="SPw-M1-uug">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Result" referencedIdentifier="ResultViewController" id="U1B-XZ-zxF" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zhe-TM-DsQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757.5" y="387"/>
         </scene>
     </scenes>
 </document>

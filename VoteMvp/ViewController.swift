@@ -75,11 +75,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBAction func onClickVoteButton(sender: UIButton) {
 
         let alertController = UIAlertController(title: "投票しますか？", message: "あなたの名前：\(myNameValues[myNameUIPicker.selectedRowInComponent(0)])\nMVP：\(mvpNameValues[mvpNameUIPicker.selectedRowInComponent(0)])\nポイント数：\(pointValues[pointUIPicker.selectedRowInComponent(0)])", preferredStyle: .Alert)
-        let otherAction = UIAlertAction(title: "OK", style: .Default) {
-            action in print("pushed OK!")
-        }
         let cancelAction = UIAlertAction(title: "CANCEL", style: .Cancel) {
             action in print("Pushed CANCEL!")
+        }
+        let otherAction = UIAlertAction(title: "OK", style: .Default) {
+            action in self.moveResult()
         }
         
         alertController.addAction(otherAction)
@@ -95,6 +95,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         let year = calendar.component(yearUnit, fromDate: voteCalendar!)
         let month = calendar.component(monthUnit, fromDate: voteCalendar!)
         return "\(year)年\(month)月分"
+    }
+    
+    func moveResult() {
+        print("Pushed OK!")
+        performSegueWithIdentifier("result",sender: nil)
     }
 }
 

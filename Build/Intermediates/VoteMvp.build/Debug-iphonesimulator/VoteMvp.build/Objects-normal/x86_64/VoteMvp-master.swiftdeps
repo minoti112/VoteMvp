@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "af647dc03d33bb980d6665fc66014598"
+build_time: [501080779, 738402000]
+inputs: 
+	"/Users/minoti/Xcode/VoteMvp/VoteMvp/ViewController.swift": [500647579, 0]
+	"/Users/minoti/Xcode/VoteMvp/VoteMvp/ResultViewController.swift": [500386100, 0]
+	"/Users/minoti/Xcode/VoteMvp/VoteMvp/AppDelegate.swift": [500301617, 0]

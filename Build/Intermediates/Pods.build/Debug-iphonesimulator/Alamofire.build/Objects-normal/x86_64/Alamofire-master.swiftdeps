@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "c5d59bd5349cf21cd5a469037eaf778f"
+build_time: [500647200, 112849000]
+inputs: 
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Response.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Alamofire.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/ParameterEncoding.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Request.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Result.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Download.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/ServerTrustPolicy.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Manager.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/ResponseSerialization.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Error.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Upload.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Stream.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/MultipartFormData.swift": [500646532, 0]
+	"/Users/minoti/Xcode/VoteMvp/Pods/Alamofire/Source/Validation.swift": [500646532, 0]

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6DFAF51BF0C25C003E2511 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DFAF41BF0C25B003E2511 /* Result.storyboard */; settings = {ASSET_TAGS = (); }; };
+		1F6DFAF91BF0C435003E2511 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DFAF81BF0C435003E2511 /* ResultViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		1FC9B5F11BEE5A1B003A810C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC9B5F01BEE5A1B003A810C /* AppDelegate.swift */; };
 		1FC9B5F31BEE5A1B003A810C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC9B5F21BEE5A1B003A810C /* ViewController.swift */; };
 		1FC9B5F61BEE5A1B003A810C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9B5F41BEE5A1B003A810C /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		1FC9B5FB1BEE5A1B003A810C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9B5F91BEE5A1B003A810C /* LaunchScreen.storyboard */; };
 		1FC9B6061BEE5A1B003A810C /* VoteMvpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC9B6051BEE5A1B003A810C /* VoteMvpTests.swift */; };
 		1FC9B6111BEE5A1B003A810C /* VoteMvpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC9B6101BEE5A1B003A810C /* VoteMvpUITests.swift */; };
+		C5BC6FB2BE9F68C90C32B383 /* Pods_VoteMvp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BBA6D5992915AE62C726CB /* Pods_VoteMvp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15BBA6D5992915AE62C726CB /* Pods_VoteMvp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteMvp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6DFAF41BF0C25B003E2511 /* Result.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Result.storyboard; sourceTree = "<group>"; };
+		1F6DFAF81BF0C435003E2511 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		1FC9886B1BF4BF29005B3BA3 /* VoteMvp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoteMvp-Bridging-Header.h"; sourceTree = "<group>"; };
 		1FC9B5ED1BEE5A1B003A810C /* VoteMvp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteMvp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC9B5F01BEE5A1B003A810C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC9B5F21BEE5A1B003A810C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,8 @@
 		1FC9B60C1BEE5A1B003A810C /* VoteMvpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteMvpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC9B6101BEE5A1B003A810C /* VoteMvpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteMvpUITests.swift; sourceTree = "<group>"; };
 		1FC9B6121BEE5A1B003A810C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB9D58867EF1C72C1FBFD45 /* Pods-VoteMvp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteMvp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoteMvp/Pods-VoteMvp.release.xcconfig"; sourceTree = "<group>"; };
+		C56020111C18593B4960896C /* Pods-VoteMvp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteMvp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoteMvp/Pods-VoteMvp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BC6FB2BE9F68C90C32B383 /* Pods_VoteMvp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,8 @@
 				1FC9B6041BEE5A1B003A810C /* VoteMvpTests */,
 				1FC9B60F1BEE5A1B003A810C /* VoteMvpUITests */,
 				1FC9B5EE1BEE5A1B003A810C /* Products */,
+				853EDD3453A68C2D2D4C582B /* Pods */,
+				78353D1663FBCF9872836118 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +112,12 @@
 				1FC9B5F01BEE5A1B003A810C /* AppDelegate.swift */,
 				1FC9B5F21BEE5A1B003A810C /* ViewController.swift */,
 				1FC9B5F41BEE5A1B003A810C /* Main.storyboard */,
+				1F6DFAF41BF0C25B003E2511 /* Result.storyboard */,
+				1F6DFAF81BF0C435003E2511 /* ResultViewController.swift */,
 				1FC9B5F71BEE5A1B003A810C /* Assets.xcassets */,
 				1FC9B5F91BEE5A1B003A810C /* LaunchScreen.storyboard */,
 				1FC9B5FC1BEE5A1B003A810C /* Info.plist */,
+				1FC9886B1BF4BF29005B3BA3 /* VoteMvp-Bridging-Header.h */,
 			);
 			path = VoteMvp;
 			sourceTree = "<group>";
@@ -125,6 +140,23 @@
 			path = VoteMvpUITests;
 			sourceTree = "<group>";
 		};
+		78353D1663FBCF9872836118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15BBA6D5992915AE62C726CB /* Pods_VoteMvp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		853EDD3453A68C2D2D4C582B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C56020111C18593B4960896C /* Pods-VoteMvp.debug.xcconfig */,
+				AAB9D58867EF1C72C1FBFD45 /* Pods-VoteMvp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FC9B6151BEE5A1B003A810C /* Build configuration list for PBXNativeTarget "VoteMvp" */;
 			buildPhases = (
+				F5D67467D099AF3EDA92ED6E /* Check Pods Manifest.lock */,
 				1FC9B5E91BEE5A1B003A810C /* Sources */,
 				1FC9B5EA1BEE5A1B003A810C /* Frameworks */,
 				1FC9B5EB1BEE5A1B003A810C /* Resources */,
+				D62563E0978DFA1C2F3D2FC9 /* Embed Pods Frameworks */,
+				8854DCB589CCDA5757BA0F2D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +266,7 @@
 				1FC9B5FB1BEE5A1B003A810C /* LaunchScreen.storyboard in Resources */,
 				1FC9B5F81BEE5A1B003A810C /* Assets.xcassets in Resources */,
 				1FC9B5F61BEE5A1B003A810C /* Main.storyboard in Resources */,
+				1F6DFAF51BF0C25C003E2511 /* Result.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +286,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8854DCB589CCDA5757BA0F2D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoteMvp/Pods-VoteMvp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62563E0978DFA1C2F3D2FC9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoteMvp/Pods-VoteMvp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D67467D099AF3EDA92ED6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FC9B5E91BEE5A1B003A810C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -257,6 +341,7 @@
 			files = (
 				1FC9B5F31BEE5A1B003A810C /* ViewController.swift in Sources */,
 				1FC9B5F11BEE5A1B003A810C /* AppDelegate.swift in Sources */,
+				1F6DFAF91BF0C435003E2511 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +481,7 @@
 		};
 		1FC9B6161BEE5A1B003A810C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C56020111C18593B4960896C /* Pods-VoteMvp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VoteMvp/Info.plist;
@@ -403,11 +489,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.jp.voteMvp.VoteMvp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoteMvp/VoteMvp-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		1FC9B6171BEE5A1B003A810C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB9D58867EF1C72C1FBFD45 /* Pods-VoteMvp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VoteMvp/Info.plist;
@@ -415,6 +503,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.jp.voteMvp.VoteMvp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoteMvp/VoteMvp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +574,7 @@
 				1FC9B6171BEE5A1B003A810C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC9B6181BEE5A1B003A810C /* Build configuration list for PBXNativeTarget "VoteMvpTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +583,7 @@
 				1FC9B61A1BEE5A1B003A810C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC9B61B1BEE5A1B003A810C /* Build configuration list for PBXNativeTarget "VoteMvpUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +592,7 @@
 				1FC9B61D1BEE5A1B003A810C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
